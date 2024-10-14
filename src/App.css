@@ -7,6 +7,71 @@
   pointer-events: none;
 }
 
+.card-body {
+  padding: 20px;
+}
+
+.list-group-item {
+  /* padding: 10px 15px; */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 10px 15px;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.list-group-item .btn {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #3b3b3b;
+  color: white;
+  font-weight: bold;
+}
+
+.folder-utama{
+  cursor: pointer;
+}
+
+.folder-utama:hover {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+  color: #007bff;
+}
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+}
+
+.hover-card:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+@media (max-width: 576px) {
+  .folder-utama {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
